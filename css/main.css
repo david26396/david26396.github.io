@@ -130,7 +130,7 @@ a:after {
 
 .sidenav{
   height: 100%;
-  width: 160px;
+  width: 180px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -138,6 +138,12 @@ a:after {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
+
+}
+@media (max-width: 992px) {
+    .sidenav {
+      width: 160px;
+    }
 }
 
 .sidenav a, .language_switcher {
